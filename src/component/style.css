@@ -1,0 +1,85 @@
+/* Parent wrapper for centering */
+body {
+  margin: auto;
+  padding: 0px;
+}
+
+form {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+input {
+  width: 280px;
+  height: 30px;
+  border-radius: 20px;
+  margin: 5px;
+  background-color: transparent;
+
+}
+
+
+h2 {
+  margin: 0 auto;
+  text-align: center;
+  /* Keeps the text centered within the element */
+}
+
+
+
+/* Parent wrapper for centering */
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://img.freepik.com/premium-photo/plain-gray-background_793248-2435.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid;
+}
+
+
+.containerbox {
+  height: 400px;
+  width: 450px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.circle_div {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.circle_div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.auth {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  height: 35px;
+  width: 150px;
+  font-size: 20px;
+  border-radius: 40px;
+  background-color: transparent;
+}
+
